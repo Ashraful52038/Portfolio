@@ -90,10 +90,13 @@ nav ul li a::after
 {
     width: 100%;
     border-radius: 15px;
+    margin-left: 100px;
+    margin-top: 100px;
 }
 .about-col-2
 {
     flex-basis: 30%;
+    margin-right: 100px;
 }
 .sub-title
 {
@@ -196,12 +199,13 @@ nav ul li a::after
     position: relative;
     overflow: hidden;
 }
-.work-Area51 img{
-    width: 100%;
-    height: 100%;
+.work-Tic{
+    height: 200px;
+    width: 300px;
     border-radius: 10px;
-    display: block;
-    transition: transform 0.5%;
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
 }
 .work-Ui{
     height: 200px;
@@ -210,13 +214,6 @@ nav ul li a::after
     position: relative;
     overflow: hidden;
 }
-.work-Ui img{
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    display: block;
-    transition: transform 0.5%;
-}
 .work{
     height: 500px;
     width: 250px;
@@ -224,14 +221,20 @@ nav ul li a::after
     position: relative;
     overflow: hidden;
 }
-.work img{
+.work-Area51 img,
+.work-Tic img,
+.work-Ui img,
+.work img {
     width: 100%;
     height: 100%;
-    border-radius:10px ;
+    border-radius: 10px;
     display: block;
     transition: transform 0.5s;
 }
+
+
 .work-Area51 .layer,
+.work-Tic .layer,
 .work-Ui .layer,
 .work .layer{
     width: 100%;
@@ -269,11 +272,13 @@ nav ul li a::after
     text-align: center;
 }
 .work-Area51:hover img,
+.work-Tic:hover img,
 .work-Ui:hover img,
 .work:hover img {
     transform: scale(1.1);
 }
 .work-Area51:hover .layer,
+.work-Tic:hover .layer,
 .work-Ui:hover .layer,
 .work:hover .layer
 {
