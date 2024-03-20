@@ -189,18 +189,51 @@ nav ul li a::after
     grid-gap: 40px;
     margin-top: 50px;
 }
+.work-Area51{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.work-Area51 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5%;
+}
+.work-Ui{
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.work-Ui img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5%;
+}
 .work{
+    height: 500px;
+    width: 250px;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
 }
 .work img{
     width: 100%;
+    height: 100%;
     border-radius:10px ;
     display: block;
     transition: transform 0.5s;
 }
- .layer{
+.work-Area51 .layer,
+.work-Ui .layer,
+.work .layer{
     width: 100%;
     height: 0;
     background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
@@ -222,6 +255,7 @@ nav ul li a::after
     font-weight: 500;
     margin-bottom: 20px;
 }
+
 .layer a{
     margin-top: 20px;
     color: #ff004f;
@@ -234,9 +268,13 @@ nav ul li a::after
     border-radius: 50%;
     text-align: center;
 }
-.work:hover img{
+.work-Area51:hover img,
+.work-Ui:hover img,
+.work:hover img {
     transform: scale(1.1);
 }
+.work-Area51:hover .layer,
+.work-Ui:hover .layer,
 .work:hover .layer
 {
     height: 100%;
@@ -254,6 +292,7 @@ nav ul li a::after
 .btn:hover{
     background: #ff004f;
 }
+/*------------------contact-----------------*/
 .contact-left{
     flex-basis: 35%;
 }
