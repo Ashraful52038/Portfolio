@@ -31,40 +31,51 @@ nav
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    color: #fff;
+    color: #f3eaea;
 
 }
 nav ul li{
+    color: red;
     display:inline-block;
     list-style: none;
     margin: 10px 20px;
-
 }
 nav ul li a
 {
-    color: #fff;
+    color: #0d0303;
     text-decoration: none;
     font-size: 18px;
     position: relative;
+    padding: 5px 0;
 }
-
 nav ul li a::after
 {
     content: '';
+    display: block;
     width: 0;
     height: 3px;
     background: #d80707;
     position: absolute;
     left: 0;
-    bottom: -6px;
+    bottom: -3px;
+    transition: width 0.3s ease; /* Smooth underline animation */
 }
+/* On hover, expand the underline */
+nav ul li a:hover {
+    color: black;
+}
+
 .header-text{
     margin-top: 20%;
     font-size: 30px;
 }
+.header-text p{
+    color: black;
+}
 .header-text h1{
     margin-top: 2%;
     font-size: 60px;
+    color: blue;
 }
 .header-text h1 span
 { 
@@ -87,12 +98,12 @@ nav ul li a::after
     width: 100%;
     border-radius: 15px;
     margin-left: 100px;
-    margin-top: 100px;
+    margin-top: 15px;
 }
 .about-col-2
 {
     flex-basis: 30%;
-    margin-right: 100px;
+    margin-right: 120px;
 }
 .sub-title
 {
