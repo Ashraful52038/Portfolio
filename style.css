@@ -103,6 +103,7 @@ nav ul li a::after
 .tab-titles{
     display: flex;
     margin: 20px 0 40px;
+    color: #d80707;
 }
 .tab-links
 {
@@ -171,7 +172,7 @@ nav ul li a::after
     display: inline-block;
 }
 .services-list div:hover{
-    background: #ff004f;
+    background: #03940f;
     transform:translate(-10px);
 }
 /* ----------porfolio--------------- */
@@ -232,7 +233,7 @@ nav ul li a::after
 .work .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    background: linear-gradient(rgba(0,0,0,0.6),#52e557);
     border-radius: 10px;
     position: absolute;
     left:0;
@@ -281,14 +282,14 @@ nav ul li a::after
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid #78ed38;
     padding: 6px;
     text-decoration: none;
     color: #fff;
     transition: background 0.5s;
 }
 .btn:hover{
-    background: #ff004f;
+    background: #27f02e;
 }
 /*------------------contact-----------------*/
 .contact-left{
